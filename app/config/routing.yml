@@ -1,0 +1,11 @@
+pi:
+    resource: "@piBundle/Resources/config/routing.yml"
+    prefix:   /aze
+
+pidev:
+    resource: "@PIDEVBundle/Resources/config/routing.yml"
+    prefix:   /azd
+
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

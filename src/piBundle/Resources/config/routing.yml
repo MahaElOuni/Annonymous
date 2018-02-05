@@ -1,0 +1,12 @@
+pi_homepage:
+    path:     /home
+    defaults: { _controller: piBundle:Default:home }
+etudiant_homepage:
+    path:     /home/etudiant
+    defaults: { _controller: piBundle:Default:homeEtudiant }
+fos_user_security_login:
+    path:      /
+    defaults:  { _controller: FOSUserBundle:Security:login, _method: POST }
+adminvue:
+    path:     /admin
+    defaults:  { _controller: piBundle:Default:Adminvue }
